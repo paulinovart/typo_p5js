@@ -4,10 +4,9 @@ class Letter{
 
 
 
-this.stars = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", 
-    "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
+this.stars = ["★", "☆", "✦", "✧", "⌑", "✩", "✫", "✬", "✭", "✯", "⚝", "⭑", "⭒","⟡","⊹","⟡","⊹"];
 
-this.letter = random(this.alphabet);  
+this.letter = random(this.stars);  
 
         this.f = random(fonts);
         this.size = random(20,60);
