@@ -53,6 +53,6 @@ function draw(){
    
 }
 
-function mouseMoved(){//built function in p5, called everytime u drag ur mouse
+function mouseDragged(){//built function in p5, called everytime u drag ur mouse
    letters.push(new Letter(mouseX, mouseY));
 }
