@@ -10,7 +10,7 @@ this.alphabet = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M"
 this.letter = random(this.alphabet);  
 
         this.f = random(fonts);
-        this.size = random(20,50);
+        this.size = random(20,60);
 
         this.x = x;
         this.y = y;

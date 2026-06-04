@@ -1,8 +1,26 @@
+
+
+
 .p5Canvas{
     display: flex;
-    margin: auto;
+    margin:  10px auto;
+    border: 10px solid white;
     
 
+}
+
+
+
+html{
+    background-color: #D1BDA4;
+}
+
+
+h1{
+    margin: 2vw;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #09423E;
 }
 
 main{
