@@ -37,7 +37,7 @@ angleMode (DEGREES);
 
 
 function draw(){
-    background("#CDD0F8");
+    background("#384393");
 
     for (let i = letters.length-2; i >= 0 ; i--){
         letters[i].update();
