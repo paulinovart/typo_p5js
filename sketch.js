@@ -24,7 +24,12 @@ fonts[2] = ('Trebuchet MS');
 
 
 function setup(){
-createCanvas(600, 600);
+    canvasHeight = windowHeight - 200;
+
+     canvasWidth = canvasHeight 
+  
+
+createCanvas(canvasWidth, canvasHeight);
 angleMode (DEGREES);
 
 
@@ -32,7 +37,7 @@ angleMode (DEGREES);
 
 
 function draw(){
-    background(220);
+    background("#CDD0F8");
 
     for (let i = letters.length-2; i >= 0 ; i--){
         letters[i].update();

@@ -15,6 +15,8 @@ this.letter = random(this.alphabet);
         this.x = x;
         this.y = y;
 
+        this.textColor = "#ffffff"
+
         this.dx = random(-5,5);
         this.dy = random(-5,5);
 
@@ -35,6 +37,8 @@ this.letter = random(this.alphabet);
         push();
         translate(this.x, this.y)
         rotate(this.angle)
+        fill(225);
+
         //textFont('Courier New')
       textFont(this.f);
         textSize(this.size);
